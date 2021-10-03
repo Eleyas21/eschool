@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+
+}
+a, a:hover{
+    text-decoration: none;
+}
+/* *********
+*E-school code start**
+************* */
+.header{
+    width: 100%;
+    background: #F0FFF0;
+    
+}
+.main-menu{
+    width: 100%;
+}
+.main-menu .bg-light{
+    background: transparent !important;
+}
+.main-menu .navbar-light .navbar-brand img{
+    width: 198px;
+}
+
+.main-menu .navbar-light .navbar-nav .nav-link {
+    color: #000;
+    margin: 0px 0px 0px 20px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 1s;
+}
+
+.main-menu .navbar-light .navbar-nav .nav-link:hover{
+    color:#21B573 ;
+}
+
+
+.navbar-light .navbar-nav .nav-link.active{
+    color: #000;
+    font-weight: 700;
+}
+
+.main-menu .navbar-light .navbar-nav .btn-success{
+    color: #fff;
+    background-color: #21B573;
+    border-color: #21B573;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 12px 30px;
+    border-radius: 35px;
+    margin: 0px 0px 0px 20px;
+    transition: 1s;
+}
+.main-menu .navbar-light .navbar-nav .btn-success:hover, .main-menu .navbar-light .navbar-nav .btn-success:focus{
+    background: transparent;
+    border-color: 21B573 ;
+    color: #21B573;
+}
+/* banner code start */
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.banner h4{
+    font-size: 16px;
+    line-height: 24px;
+    color: #FD511A;
+}
+.banner h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+}
+.banner h1 span{
+    color: #21B573 ;
+}
+.banner p{
+    font-size: 16px;
+    line-height: 36px;
+    color: #6C6B6B;
+    margin-bottom: 25px; 
+}
+.banner .btn-success{
+    color: #fff;
+    background-color: #21B573;
+    border-color: #000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 30px;
+    border-radius: 35px;
+    margin: 0px 0px 0px 0px;
+    transition: 1s;
+}
+.banner .btn-success:hover, .banner .btn-success:focus{
+    background: transparent;
+    border-color: #21B573;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color:#21B573 ;
+}
